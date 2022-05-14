@@ -4,12 +4,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New title</title>
+    <title>ViceVerse Project</title>
     <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
 </head>
 <body>
     <h1>Vice Versa</h1>
-    <form>
+    <form action="{% url 'reverse' %}">
         <textarea id="my_text" name="user-text" rows="10" cols="50"></textarea>
         <br>
         <input type="submit" value="Reverse!">
